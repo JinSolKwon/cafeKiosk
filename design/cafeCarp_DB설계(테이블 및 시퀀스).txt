@@ -1,0 +1,64 @@
+회원정보(번호, 이름, 전화번호, 생년, 월일, 가입일자, 포인트)
+
+관리자계정(번호, 아이디, 비밀번호, 직위, 가입일자)
+
+주문(번호, 주문번호, 메뉴명, 수온, 사이즈, 샷추가, 시럽, 휘핑, 가격, 주문일자)
+
+결제정보(번호, 주문번호, 포인트, 카드, 현금, 총액, 제공여부, 환불여부)
+
+환불(번호, 주문번호, 메뉴명, 포인트, 카드, 현금, 총액, 환불일자)
+
+메뉴(번호, 타입, 카테고리명, 메뉴명, 금액, 등록일자, 활성화여부)
+
+메뉴이미지(번호, 메뉴명, 저장파일명, 확장자, 등록일자)
+
+==========================시퀀스============================
+
+create sequence member_seq
+start with 1
+increment by 1
+nomaxvalue
+nocycle
+nocache;
+
+create sequence manager_seq
+start with 1
+increment by 1
+nomaxvalue
+nocycle
+nocache;
+
+create sequence order_seq
+start with 1
+increment by 1
+nomaxvalue
+nocycle
+nocache;
+
+create sequence payment_seq
+start with 1
+increment by 1
+nomaxvalue
+nocycle
+nocache;
+
+create sequence refund_seq
+start with 1
+increment by 1
+nomaxvalue
+nocycle
+nocache;
+
+create sequence menu_seq
+start with 1
+increment by 1
+nomaxvalue
+nocycle
+nocache;
+
+create sequence menu_image_seq
+start with 1
+increment by 1
+nomaxvalue
+nocycle
+nocache;
