@@ -62,3 +62,17 @@ increment by 1
 nomaxvalue
 nocycle
 nocache;
+
+create sequence quit_member_seq
+start with 1
+increment by 1
+nomaxvalue
+nocycle
+nocache;
+
+create sequence category_seq
+start with 1
+increment by 1
+nomaxvalue
+nocycle
+nocache;
