@@ -53,7 +53,6 @@
 <br>
 
 # 개발환경 및 개발도구
-![개발 도구](https://user-images.githubusercontent.com/88276563/148174892-34d447ba-0edd-489a-908a-0b6bda2b6d15.png)
-
+![개발도구](https://user-images.githubusercontent.com/88276563/148647058-0a708294-7957-415a-82d8-ae05b15ba817.png)
 
 
